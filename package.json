@@ -3,19 +3,18 @@
   "version": "1.0.0",
   "description": "second assignment",
   "main": "index.js",
-  "dependencies": {},
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wmharvey/assignment2.git"
+    "start": "gulp start"
   },
   "author": "Whitney",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/wmharvey/assignment2/issues"
-  },
-  "homepage": "https://github.com/wmharvey/assignment2#readme"
+  "devDependencies": {
+    "browser-sync": "^2.11.0",
+    "browserify": "^12.0.1",
+    "gulp": "^3.9.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-util": "^3.0.7",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
 }
