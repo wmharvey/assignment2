@@ -33,8 +33,4 @@ gulp.task('bundle', function() {
     .pipe(gulp.dest('./www/'));
 });
 
-// gulp.task('watch-js', ['bundle'], function() {
-//   gulp.watch(['./src/js/**'], ['bundle']);
-// });
-
 gulp.task('start', ['serve']);
